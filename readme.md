@@ -2,6 +2,7 @@
 TorGhost is an anonymization script. TorGhost redirects all internet traffic through SOCKS5 tor proxy. DNS requests are also redirected via tor, thus preventing DNSLeak. The scripts also disables unsafe packets exiting the system. Some packets like ping request can compromise your identity.
 
 This version is optimized for the usage with **Kali Linux Rolling**: 6.5.0-kali3-amd64 
+
 Get it from: https://www.kali.org/get-kali/#kali-platforms
 
 It is a fork from the original TorGhost by SusmithKrishnan: https://github.com/SusmithKrishnan/torghost.git
