@@ -69,3 +69,9 @@ Icon=network-workgroup
 
 Save it with **CTRL+O** and exit with **CTRL+X**.
 An icon will appear on your desktop. Double click it to start TorGhost.
+
+## Comments from the community
+### 08.01.2024: Potential bug found by user "strangenode"
+The command: ```curl ifconfig.me ```
+returns an ipv6 address leak. This is fixed by running a VPN before starting TorGhost.
+Tested on Kali Linux.
